@@ -2,7 +2,7 @@ package mergesort;
 
 public class Main {
     public static void main(String... args) {
-        int n = 1000000;
+        int n = 10;
         Integer[] a = new Integer[n];
         for (int i = 0; i < n; i++) {
             a[i] = i;
