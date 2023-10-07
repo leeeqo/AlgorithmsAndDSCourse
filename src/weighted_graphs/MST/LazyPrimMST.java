@@ -1,7 +1,7 @@
 package weighted_graphs.MST;
 
-import week2.min_spanning_trees.Edge;
-import week2.min_spanning_trees.EdgeWeightedGraph;
+import weighted_graphs.Edge;
+import weighted_graphs.EdgeWeightedGraph;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,8 +1,8 @@
 package weighted_graphs.shortest_paths;
 
-import week1.directed_graphs.topological_sort.TopologicalSort;
-import week2.min_spanning_trees.DirectedEdge;
-import week2.min_spanning_trees.EdgeWeightedDigraph;
+import non_weighted_graphs.directed_graphs.topological_sort.TopologicalSort;
+import weighted_graphs.DirectedEdge;
+import weighted_graphs.EdgeWeightedDigraph;
 
 public class AcyclicSP {
     private DirectedEdge[] edgeTo;

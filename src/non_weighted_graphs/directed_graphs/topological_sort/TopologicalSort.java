@@ -1,8 +1,8 @@
 package non_weighted_graphs.directed_graphs.topological_sort;
 
 import non_weighted_graphs.directed_graphs.Digraph;
-import week2.min_spanning_trees.DirectedEdge;
-import week2.min_spanning_trees.EdgeWeightedDigraph;
+import weighted_graphs.DirectedEdge;
+import weighted_graphs.EdgeWeightedDigraph;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

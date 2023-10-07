@@ -1,7 +1,7 @@
 package weighted_graphs.shortest_paths;
 
-import week2.min_spanning_trees.DirectedEdge;
-import week2.min_spanning_trees.EdgeWeightedDigraph;
+import weighted_graphs.DirectedEdge;
+import weighted_graphs.EdgeWeightedDigraph;
 
 public class Test {
     public static void main(String[] args) {

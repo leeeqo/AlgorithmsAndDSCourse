@@ -1,6 +1,6 @@
 package weighted_graphs;
 
-import week1.Bag;
+import non_weighted_graphs.Bag;
 
 public class EdgeWeightedDigraph {
     private final int V;
