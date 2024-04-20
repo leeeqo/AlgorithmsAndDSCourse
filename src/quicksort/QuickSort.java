@@ -1,6 +1,6 @@
 package quicksort;
 
-import heapsort_NOT_FINISHED.Shuffle;
+import heapsort.Shuffle;
 
 public class QuickSort {
     private static int partition(Comparable[] a, int lo, int hi) {

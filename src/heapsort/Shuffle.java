@@ -1,4 +1,4 @@
-package heapsort_NOT_FINISHED;
+package heapsort;
 
 import java.util.Random;
 

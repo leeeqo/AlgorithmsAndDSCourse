@@ -1,4 +1,4 @@
-package heapsort_NOT_FINISHED;
+package heapsort;
 
 public class Main {
     public static void main(String[] args) {

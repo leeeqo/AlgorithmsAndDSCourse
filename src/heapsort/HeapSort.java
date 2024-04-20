@@ -1,4 +1,4 @@
-package heapsort_NOT_FINISHED;
+package heapsort;
 
 public class HeapSort {
     public static void sort(Comparable[] pq) {
