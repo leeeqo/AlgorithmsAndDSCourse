@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 public class BSTTest {
     BST<Character, Object> bst = new BST<>();
 
@@ -25,34 +27,34 @@ public class BSTTest {
         Object empty = new Object();
         bst.put('X', empty);
 
-        Assertions.assertEquals(empty, bst.get('X'));
+        assertEquals(empty, bst.get('X'));
     }
 
     @Test
     public void whenDeleteThenGetIsNull() {
         bst.delete('S');
 
-        Assertions.assertNull(bst.get('S'));
+        assertNull(bst.get('S'));
     }
 
     @Test
     public void whenElemInTreeThenFloorIsThisElem() {
-        Assertions.assertEquals('C', bst.floor('D'));
+        assertEquals('C', bst.floor('D'));
     }
 
     @Test
     public void whenElemNotInTreeThenFloorIsNearestMinElem() {
-        Assertions.assertEquals('C', bst.floor('D'));
+        assertEquals('C', bst.floor('D'));
     }
 
     @Test
     public void whenElemInTreeThenCeilingIsThisElem() {
         bst.inOrder();
-        Assertions.assertEquals('E', bst.ceiling('E'));
+        assertEquals('E', bst.ceiling('E'));
     }
 
     @Test
     public void whenElemNotInTreeThenCeilingIsNearestMaxElem() {
-        Assertions.assertEquals('E', bst.ceiling('D'));
+        assertEquals('E', bst.ceiling('D'));
     }
 }

@@ -26,7 +26,7 @@ class QuickSelectTest {
     @Test
     public void testQuickSelect() {
         for (int i = 0; i < length; i++) {
-            Assertions.assertEquals(i, QuickSelect.select(array, i));
+            assertEquals(i, QuickSelect.select(array, i));
         }
     }
 }

@@ -28,7 +28,7 @@ class MergeSortTest {
         MergeSort.sort(array);
 
         for (int i = 0; i < length; i++) {
-            Assertions.assertEquals(i, array[i]);
+            assertEquals(i, array[i]);
         }
     }
 }
