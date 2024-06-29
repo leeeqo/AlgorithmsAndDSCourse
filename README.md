@@ -1,3 +1,7 @@
 # Algorithms Courses
 
-I took the courses named "Algorithms, Part 1" and "Algorithms, Part 2" on Coursera. In this project, I have collected implementations of algorithms that were analyzed in the courses.
+In this project, I've collected implementations of algorithms which I've studied during these courses:
+
+- [Algorithms, Part 1](https://www.coursera.org/learn/algorithms-part1)
+- [Algorithms, Part 2](https://www.coursera.org/learn/algorithms-part2)
+
